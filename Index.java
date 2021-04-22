@@ -2,15 +2,11 @@ import java.util.*;
 
 public class Index{
 
-    public static void main(String[] args){
- 
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args)
+    {
         int numero,fibo1,fibo2,i;
   
-        do{
-            System.out.print("Introduce numero mayor que 1: ");
-            numero = sc.nextInt();
-        }while(numero<=1);
+        numero = 8;
   
         System.out.println("Los " + numero + " primeros términos de la serie de Fibonacci son:");                 
 
